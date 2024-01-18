@@ -350,3 +350,4 @@ XlsxWriter==3.1.2
 xyzservices==2023.7.0
 yarl==1.9.2
 zipp==3.15.0
+pip==23.3.2
