@@ -21,7 +21,7 @@ hide_st_style = """
 st.markdown(hide_st_style, unsafe_allow_html=True) 
 
 
-
+@st.cache_data
 def load_and_process_data(geojson_path):
     # Read GeoJSON file as GeoDataFrame
     gdf = gpd.read_file(geojson_path)
