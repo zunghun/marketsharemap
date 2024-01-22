@@ -33,8 +33,8 @@ def load_and_process_data(geojson_path):
 
 def main():
     # Specify GeoJSON file paths
-    geojson_seoul_path = "marketsharemap\data\data_seoul_wgs84.geojson"
-    geojson_hospital_path = "marketsharemap\data\hospital_wgs84.geojson"
+    geojson_seoul_path = "https://raw.githubusercontent.com/zunghun/marketsharemap/main/data/data_seoul_wgs84.geojson"
+    geojson_hospital_path = "https://raw.githubusercontent.com/zunghun/marketsharemap/main/data/hospital_wgs84.geojson"
 
     # Load and preprocess data using GeoDataFrames
     gdf_seoul = load_and_process_data(geojson_seoul_path)
