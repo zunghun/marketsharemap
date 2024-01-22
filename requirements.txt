@@ -245,7 +245,6 @@ PySocks==1.7.1
 pystac==1.8.4
 pystac-client==0.7.5
 pytesseract==0.3.10
-python==3.11.4
 python-barcode==0.15.1
 python-bidi==0.4.2
 python-box==6.1.0
