@@ -5,7 +5,7 @@ import streamlit as st
 
 
 # Set page configuration to expand the container
-st.set_page_config(layout="wide", page_title="의약품_매출액추정맵")
+st.set_page_config(layout="wide", page_icon='random', page_title="의약품_매출액추정맵")
 disease_list = ["불면증"]
 
 hide_st_style = """
