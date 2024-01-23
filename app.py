@@ -5,7 +5,17 @@ import streamlit as st
 
 
 # Set page configuration to expand the container
-st.set_page_config(layout="wide", page_icon='random', dark='dark', page_title="의약품_매출액추정맵")
+# Streamlit 페이지 설정
+st.set_page_config(
+    page_title='질병 예측 마이크로맵',
+    page_icon='random',
+    layout='wide',  # 레이아웃 설정
+    initial_sidebar_state='expanded'
+)
+
+# 전체 배경색을 검정색으로 설정
+st.markdown("<style>body { background-color: black; color: white; }</style>", unsafe_allow_html=True)
+
 disease_list = ["불면증"]
 
 hide_st_style = """
